@@ -2,61 +2,51 @@
 <html>
   <head>
     <title>Google</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="googlestyle.css">
-
-    <div id="container">
-      <div id="content">
-      </div>
-    </div>
-      
   </head>
-
-  <body>
+    <body>
     
-    <div class="header">
-    <header>  
+      <div id="container">
+    
+      <div id="nav">  
         <ul>
-          <li>Gmail</li>
-          <li>Images</li>
+          <li><a href="https://mail.google.com/mail/?tab=wm&authuser=0">Gmail</a></li>
+          <li><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0">Images</a></li>
         </ul>  
-    </header>
-    </div>
+      </div>
 
-    <div class="img">
-      <img src="https://www.google.com/logos/doodles/2017/dolores-del-rios-112th-birthday-4853579973132288.2-l.png" class="main logo" alt="logo">
-    </div>
+      <div id="content">
+        <div id="logo">
+          <img src="googlelogo_color_272x92dp.png" class="main logo" alt="logo">
+        </div>
+
+      <div id="form">
+        <form id="search">
+          <input type="text" name="searchbox"><br/>
+          <input class="button" type="submit" value="Google Search">
+          <input class="button" type="submit" value="I'm Feeling Lucky">
+          
+          </form>
+      </div>
+    </div>   
     
-    <div class="searchbox">
-      <form action="/action_page.php">
-        <input type="text" name="searchbox">
-      </form>
-    </div>
-
-    <div class="buttons">
-      <form action="/action_page.php">
-        <input type="submit" value="Google Search">
-        <input type="submit" value="I'm Feeling Lucky">
-      </form>
-    </div> 
-      
-    <div class="footer1">
-      <footer>
+    <div id="footer">
+      <div class="leftfooter">
         <ul>
-          <li>Advertising</li>
-          <li>Business</li>
-          <li>About</li>
+          <li><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+          <li><a href="https://www.google.com/services/?fg=1">Business</a></li>
+          <li><a href="https://www.google.com/intl/en/about.html?fg=1">About</a></li>
         </ul>
-      </footer>
-    </div>
+      </div>
 
-    <div class="footer2">
-      <footer>
+      <div class="rightfooter">
         <ul>
-          <li>Privacy</li>
-          <li>Terms</li>
-          <li>Settings</li>
+          <li><a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
+          <li><a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
+          <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
         </ul>
-      </footer>
+      </div>
     </div>
 
   </body>
