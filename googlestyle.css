@@ -1,40 +1,34 @@
 html body {
-	margin: 0;
+	margin: 0 -27px;
 	padding: 0;
 	height: 100%;
-	text-align: center;
+	text-align: -webkit-center;
 }
-
-#container {
-	position: relative;
-	min-height: 100%;
-	font-family: arial;
-	font-size: 20px;
-	text-align: center;
-}
-
-/*Navigation Bar*/
 
 #nav {
 	display: inline;
 	float: right;
-	position: fixed-top;
+	position: top;
 	height: 30px;
 	padding: 10px;
+	margin: 0 auto;
+	font-family: "roboto";
 }
 
 #nav li {
 	list-style-type: none;
 	display: block;
 	float: right;
-	width: 60px; 
+	width: 70px;
+	padding: 0 10px; 
 }
 
 #nav a {
-	font-size: 13px;
+	font-size: 18px;
 	text-decoration: none;
 	color: #000;
 }
+
 #content {
 	padding-top: 40px;
 	padding-bottom: 50px;
@@ -42,42 +36,56 @@ html body {
 }
 
 #logo img {
-	position: absolute;
+	position: fixed;
 	margin-left: -5%;
-	width: 40%;
-	max-height: 500px;
-	max-width: 250px;
-
+	width: 45%;
+	top: 30%;
+	height: 92px;
+	width: 272px;
 }
 
 #form {
 	position: relative;
-	padding-top: 80px;
+	padding-top: 220px;
 	clear: both;
+	font-size: 20px;
+	font-family: "roboto";
 }
 
-#search .searchbox input {
-	width: 300px;
+#searchinput {
+	width: 500px;
+	height: 25px;
 }
 
 form .search {
 	display: inline;
+	margin-left: -5%;
 
 }
 
 input .button {
 	position: relative;
+	background-color: #e7e7e7; 
+	color: black;
+
 }
 
 #footer {
-	position: fixed-bottom;
+	position: absolute;
 	list-style-type: none;
+	height: 40px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #F2F2F2;
 }
 
 #footer li {
 	list-style-type: none;
 	display: inline;
-	width: 60px; 
+	width: 60px;
+	padding: 10px;
+	bottom: 0px;
 }
 
 .leftfooter {
@@ -92,58 +100,8 @@ input .button {
 	font-size: 15px;
 	text-decoration: none;
 	color: #666;
-
-/*.footer1 {
-	display: inline-block;
-	float: left;
-	position: fixed-bottom;
-}
-
-.footer2 {
-	display: inline-block;
-	float: right;
-	position: fixed-bottom;
-}
-
-.img {
-	display: block;
-	margin: auto;
-	width: 50%;
-	padding: 50px;
-	position: flex;
-	vertical-align: middle;
-
-}
-
-.searchbox {
-	display: block;
-	margin: auto;
-	width: 50%;
-	position: flex;
-	vertical-align: middle;
-}
-
-.searchbox input {
-	width: 500px;
-	border-style: groove;
-	vertical-align: middle;
-}
-
-.buttons {
-	display: inline;
-	margin: auto;
-	width: 50%;
-	text-align: center;
-	vertical-align: middle;
-}
-
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden; 
 }
 
 li {
-	display: inline;
-}*/
+	font-family: "roboto";
+}
